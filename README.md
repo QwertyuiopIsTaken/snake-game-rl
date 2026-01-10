@@ -38,7 +38,7 @@ game = SnakeGameAI(render=False)
 to increase simulation speed.
 
 <p align="center">
-    <img src=https://github.com/QwertyuiopIsTaken/snake-game-rl/blob/main/resource/example-graph.png alt="Score vs runs graph of a model training simulation" width="800" height="800">
+    <img src=https://github.com/QwertyuiopIsTaken/snake-game-rl/blob/main/assets/example-graph.png alt="Score vs runs graph of a model training simulation" width="800" height="800">
 </p>
 
 ## Warnings

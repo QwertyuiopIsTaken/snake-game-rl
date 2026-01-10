@@ -1,0 +1,8 @@
+# Python cache folders
+__pycache__/
+
+# Compiled Python files
+*.pyc
+
+# PyTorch models
+*.pth
