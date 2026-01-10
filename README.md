@@ -20,7 +20,7 @@ pip install matplotlib numpy torch pygame
 3. Run the program:
 
 ```bash
-python agent.py
+python -m scripts.train
 ```
 
 ## How it works
@@ -29,13 +29,17 @@ The agent learns optimal actions using the Bellman equation and updates Q-values
 
 To improve on the original state representation, I added directional distances between snake parts to prevent long snakes from trapping itself.
 
-You can turn the render off in `agent.py`
+You can turn the render off in `train/train.py`
 
 ```python
 game = SnakeGameAI(render=False)
 ```
 
 to increase simulation speed.
+
+<p align="center">
+    <img src=https://github.com/QwertyuiopIsTaken/snake-game-rl/blob/main/resource/example-graph.png alt="Score vs runs graph of a model training simulation" width="800" height="800">
+</p>
 
 ## Warnings
 
