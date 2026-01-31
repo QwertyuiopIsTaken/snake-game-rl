@@ -3,6 +3,7 @@ import random
 from enum import Enum
 from collections import namedtuple
 import numpy as np
+import sys
 
 pygame.init()
 font = pygame.font.Font('assets/arial.ttf', 25)
@@ -65,11 +66,11 @@ class SnakeGameAI:
     def play_step(self, action):
         self.frame_iteration += 1
 
-        # 1. collect user input
-        # for event in pygame.event.get():
-        #     if event.type == pygame.QUIT:
-        #         pygame.quit()
-        #         quit()
+        # 1. update events
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
         
         # 2. move
         self._move(action) # update the head
