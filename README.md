@@ -13,7 +13,7 @@ git clone https://github.com/QwertyuiopIsTaken/snake-game-rl.git
 2. Install dependencies:
 
 ```bash
-pip install matplotlib numpy torch pygame 
+pip install matplotlib numpy torch pygame ipython
 
 ```
 
